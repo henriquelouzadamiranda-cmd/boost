@@ -1,4 +1,4 @@
-export const SITE_URL = 'https://boostautobrasil.com.br';
+export const SITE_URL = 'https://boostauto.com.br';
 export const SITE_NAME = 'Boost Auto Brasil';
 export const DEFAULT_IMAGE = '/imgs/produtos_boost.webp';
 export const WHATSAPP = '+55-31-99880-4464';
