@@ -1,4 +1,5 @@
 import type { Component } from 'svelte';
+import { slugify } from '$lib/seo';
 
 export type Post = {
 	slug: string;
@@ -16,8 +17,10 @@ type PostModule = {
 
 const modules = import.meta.glob('/src/posts/*.md', { eager: true }) as Record<string, PostModule>;
 
+// URL amigável a partir do nome do arquivo:
+// "Óleo Lubrificante GN-80 - solução....md" -> "oleo-lubrificante-gn-80-solucao..."
 function slugFromPath(path: string): string {
-	return path.split('/').pop()?.replace('.md', '') ?? '';
+	return slugify(path.split('/').pop()?.replace(/\.md$/, '') ?? '');
 }
 
 export async function getPosts(): Promise<Post[]> {

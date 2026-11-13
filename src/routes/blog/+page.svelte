@@ -8,9 +8,16 @@
 		CardTitle
 	} from '$lib/components/ui/card/index.js';
 	import { Button } from '$lib/components/ui/button/index.js';
+	import Seo from '$lib/components/seo.svelte';
 
 	let { data } = $props();
 </script>
+
+<Seo
+	title="Blog Boost | Dicas de manutenção automotiva"
+	description="Dicas de manutenção automotiva, uso de RTV Silicone, descarbonizante, limpa contato e lubrificantes. Conteúdo da Boost para mecânicos, autopeças e motoristas."
+	path="/blog"
+/>
 
 <div class="container mx-auto px-4 py-24">
 	<h1 class="text-4xl font-bold mb-12 text-center text-primary italic">Blog Boost</h1>

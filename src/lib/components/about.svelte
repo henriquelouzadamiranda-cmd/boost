@@ -6,7 +6,7 @@
 				<div class="aspect-square overflow-hidden shadow-lg-2xl align-middle content-center">
 					<img
 						src="/imgs/produtos_boost.webp"
-						alt="Produtos Boost"
+						alt="Linha de produtos automotivos Boost"
 						class="h-auto object-cover rounded-lg"
 					/>
 				</div>
@@ -15,6 +15,11 @@
 			<!-- Content -->
 			<div class="space-y-6">
 				<h2 class="text-4xl md:text-5xl font-bold">QUEM É A BOOST</h2>
+
+				<p class="text-muted-foreground leading-relaxed">
+					A Boost é uma importadora de produtos automotivos com sede em Belo Horizonte (MG), que
+					atende distribuidoras e autopeças em todo o Brasil.
+				</p>
 
 				<p class="text-muted-foreground leading-relaxed">
 					A Boost nasceu da paixão por carros e da vontade de tornar o cuidado automotivo mais

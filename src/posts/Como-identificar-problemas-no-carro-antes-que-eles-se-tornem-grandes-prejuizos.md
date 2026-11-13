@@ -15,7 +15,7 @@ O que pode indicar e por que vale investigar antes de simplesmente aceitar que "
 
 Falar sobre possíveis causas e introduzir a importância da limpeza do sistema de admissão.
 
-➡️ Leia mais sobre nosso <u>[Descarbonizante Boost](/blog/Descarbonizante%20Automotivo%20-%20limpeza%20profunda%20para%20mais%20desempenho%20e%20economia)</u>
+➡️ Leia mais sobre nosso <u>[Descarbonizante Boost](/blog/descarbonizante-automotivo-limpeza-profunda-para-mais-desempenho-e-economia)</u>
 
 ## 3. Ruídos, vibrações ou funcionamento irregular
 
@@ -25,13 +25,13 @@ Sinais que não devem ser ignorados e importância de avaliação profissional.
 
 Explicar por que identificar a origem do vazamento rapidamente é importante para preservar o motor e outros componentes.
 
-➡️ Leia mais sobre nosso <u>[RTV Silicone Boost](/blog/rtv-Silicone-Automotivo-vedacao-profissional-para-evitar-vazamentos-e-retrabalho)</u>
+➡️ Leia mais sobre nosso <u>[RTV Silicone Boost](/blog/rtv-silicone-automotivo-vedacao-profissional-para-evitar-vazamentos-e-retrabalho)</u>
 
 ## 5. Falhas elétricas ou mau funcionamento de componentes
 
 Falar sobre sujeira, umidade e oxidação nos contatos e a importância de verificar o sistema antes de trocar componentes.
 
-➡️ Leia mais sobre nosso <u>[Limpa Contato Boost](/blog/Limpa%20Contato%20Automotivo%20-%20efici%C3%AAncia%20el%C3%A9trica%20e%20prote%C3%A7%C3%A3o%20contra%20falhas)</u>
+➡️ Leia mais sobre nosso <u>[Limpa Contato Boost](/blog/limpa-contato-automotivo-eficiencia-eletrica-e-protecao-contra-falhas)</u>
 
 ## 6. Por que a manutenção preventiva é mais econômica?
 

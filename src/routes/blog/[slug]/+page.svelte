@@ -1,9 +1,37 @@
 <script lang="ts">
 	import { Button } from "$lib/components/ui/button/index.js";
 	import { ArrowLeft } from "@lucide/svelte";
+	import Seo from "$lib/components/seo.svelte";
+	import { SITE_NAME, SITE_URL, absoluteUrl, DEFAULT_IMAGE } from "$lib/seo";
 
 	let { data } = $props();
+
+	const articleJsonLd = $derived({
+		"@context": "https://schema.org",
+		"@type": "BlogPosting",
+		headline: data.post.title,
+		description: data.post.excerpt,
+		image: absoluteUrl(data.post.image ?? DEFAULT_IMAGE),
+		datePublished: data.post.date,
+		inLanguage: "pt-BR",
+		mainEntityOfPage: `${SITE_URL}/blog/${data.post.slug}`,
+		author: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
+		publisher: {
+			"@type": "Organization",
+			name: SITE_NAME,
+			logo: { "@type": "ImageObject", url: `${SITE_URL}/imgs/boost-logo.svg` }
+		}
+	});
 </script>
+
+<Seo
+	title="{data.post.title} | Blog Boost"
+	description={data.post.excerpt}
+	path="/blog/{data.post.slug}"
+	image={data.post.image}
+	type="article"
+	jsonLd={articleJsonLd}
+/>
 
 <article class="container mx-auto px-4 py-24 max-w-4xl">
     <Button href="/blog" variant="ghost" class="mb-8 pl-0 hover:pl-2 transition-all gap-2 text-muted-foreground">
