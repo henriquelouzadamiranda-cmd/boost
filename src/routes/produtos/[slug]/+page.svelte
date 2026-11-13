@@ -3,16 +3,17 @@
 	import { Button } from '$lib/components/ui/button/index.js';
 	import { ArrowLeft } from '@lucide/svelte';
 	import { IconBrandWhatsapp } from '@tabler/icons-svelte';
+	import { ShoppingCartIcon, MapPinIcon, FileDownIcon } from '@lucide/svelte';
 	import { SITE_URL, SITE_NAME } from '$lib/seo';
+	import { empresa, linkWhatsapp } from '$lib/data/empresa';
 
 	let { data } = $props();
 	const product = $derived(data.product);
 
 	const whatsappLink = $derived(
-		`https://api.whatsapp.com/send?phone=5531998804464&text=${encodeURIComponent(
-			`Olá! Tenho interesse no produto ${product.name} da Boost.`
-		)}`
+		linkWhatsapp(`Olá! Tenho interesse em revender o produto ${product.name} da Boost.`)
 	);
+	const mercadoLivreLink = $derived(product.mercadoLivre || empresa.mercadoLivreLoja);
 
 	const breadcrumb = $derived({
 		'@context': 'https://schema.org',
@@ -83,10 +84,49 @@
 				</table>
 			</div>
 
-			<Button href={whatsappLink} target="_blank" rel="noopener noreferrer" size="lg" class="w-full gap-2">
-				<IconBrandWhatsapp class="size-5" />
-				Quero revender este produto
-			</Button>
+			<div class="rounded-xl border bg-card p-4 space-y-3">
+				<p class="font-semibold">Quer comprar para usar?</p>
+				<div class="grid sm:grid-cols-2 gap-3">
+					<Button
+						href={mercadoLivreLink}
+						target="_blank"
+						rel="noopener noreferrer"
+						class="gap-2 bg-yellow-400 text-black hover:bg-yellow-300"
+					>
+						<ShoppingCartIcon class="size-5" /> Comprar no Mercado Livre
+					</Button>
+					<Button href="/onde-comprar" variant="outline" class="gap-2">
+						<MapPinIcon class="size-5" /> Lojas perto de você
+					</Button>
+				</div>
+			</div>
+
+			<div class="rounded-xl border bg-card p-4 space-y-3">
+				<p class="font-semibold">Tem uma loja ou distribuidora?</p>
+				<Button href={whatsappLink} target="_blank" rel="noopener noreferrer" class="w-full gap-2">
+					<IconBrandWhatsapp class="size-5" /> Quero revender este produto
+				</Button>
+				<div class="flex flex-wrap gap-x-4 gap-y-1 text-sm">
+					<a href="/seja-revendedor" class="underline text-muted-foreground hover:text-foreground"
+						>Condições para revenda</a
+					>
+					<a href="/catalogo-boost.pdf" download class="underline text-muted-foreground hover:text-foreground inline-flex items-center gap-1"
+						><FileDownIcon class="size-4" /> Catálogo (PDF)</a
+					>
+					{#if product.fichaTecnica}
+						<a href={product.fichaTecnica} target="_blank" rel="noopener noreferrer" class="underline text-muted-foreground hover:text-foreground inline-flex items-center gap-1"
+							><FileDownIcon class="size-4" /> Ficha técnica / FISPQ</a
+						>
+					{:else}
+						<a
+							href={linkWhatsapp(`Olá! Pode me enviar a ficha técnica/FISPQ do ${product.name} Boost?`)}
+							target="_blank"
+							rel="noopener noreferrer"
+							class="underline text-muted-foreground hover:text-foreground">Pedir ficha técnica / FISPQ</a
+						>
+					{/if}
+				</div>
+			</div>
 
 			{#if product.blogSlug}
 				<p class="text-sm text-muted-foreground">

@@ -2,7 +2,7 @@
 title: Pneus do carro - por que eles são essenciais para evitar acidentes
 date: 2026-04-23
 excerpt: Quando o assunto é segurança no trânsito, muitos motoristas pensam apenas em direção defensiva. Mas existe um fator igualmente importante — e muitas vezes negligenciado
-image: /imgs/Pneus do carro por que eles são essenciais para evitar acidentes.png
+image: /imgs/pneus-do-carro.webp
 ---
 
 

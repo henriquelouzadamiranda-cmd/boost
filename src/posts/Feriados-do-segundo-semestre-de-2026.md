@@ -13,7 +13,7 @@ Antes de colocar as malas no porta-malas, vale conferir o calendário de feriado
 
 ---
 
-# Calendário de feriados – Segundo semestre de 2026
+## Calendário de feriados – Segundo semestre de 2026
 
 Se você pretende viajar, estas são as principais datas para se programar:
 
@@ -39,7 +39,7 @@ Além dos feriados nacionais, vale conferir os feriados municipais e estaduais d
 
 ---
 
-# Vai pegar estrada? Faça uma revisão antes
+## Vai pegar estrada? Faça uma revisão antes
 
 Muitos motoristas lembram de abastecer o carro antes da viagem, mas esquecem que uma boa revisão pode evitar problemas mecânicos, reduzir gastos inesperados e aumentar a segurança durante o percurso.
 
@@ -175,7 +175,7 @@ São detalhes que fazem diferença durante uma viagem.
 
 ---
 
-# A manutenção preventiva é o melhor companheiro de viagem
+## A manutenção preventiva é o melhor companheiro de viagem
 
 Não existe sensação melhor do que viajar sabendo que o carro está preparado para qualquer trajeto.
 
@@ -196,7 +196,7 @@ Em outras palavras, cuidar do carro antes da viagem significa viajar com muito m
 
 ---
 
-# Conte com a Boost para chegar mais longe
+## Conte com a Boost para chegar mais longe
 
 Independentemente do destino escolhido neste segundo semestre, uma coisa não pode ficar de fora do planejamento: a manutenção do seu veículo.
 

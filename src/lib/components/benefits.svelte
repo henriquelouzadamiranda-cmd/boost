@@ -3,16 +3,16 @@
 
 	const benefits = [
 		{
-			title: 'MAIS POTÊNCIA',
-			description: 'Fórmulas desenvolvidas para maximizar o desempenho.'
+			title: 'DIRETO DO IMPORTADOR',
+			description: 'Compre direto da Boost, sem intermediários, com preço de revenda.'
 		},
 		{
-			title: 'MENOS CONSUMO',
-			description: 'Otimização que resulta em economia.'
+			title: 'CAIXA FECHADA',
+			description: 'Produtos em caixas de 24 latas ou 144 tubos, prontos para o seu estoque.'
 		},
 		{
-			title: 'FÁCIL APLICAÇÃO',
-			description: 'Produtos práticos para uso profissional.'
+			title: 'USO PROFISSIONAL',
+			description: 'Vedação, lubrificação e limpeza para oficinas, autopeças e mecânicos.'
 		}
 	];
 </script>
@@ -30,13 +30,13 @@
 	<div class="container mx-auto px-4 relative z-10">
 		<div class="mb-12">
 			<h2 class="text-4xl md:text-5xl font-bold mb-4">
-				NOSSOS
+				POR QUE
 				<br />
-				PRODUTOS
+				BOOST
 			</h2>
 			<p class="text-muted-foreground max-w-2xl">
-				A linha de produtos Boost foi feita para quem entende de desempenho.<br />Limpeza, proteção
-				e performance. Cada fórmula foi desenvolvida para entregar resultados reais.
+				A linha Boost foi feita para quem trabalha com manutenção automotiva.<br />Vedação,
+				lubrificação e limpeza com qualidade e bom preço para revender.
 			</p>
 		</div>
 

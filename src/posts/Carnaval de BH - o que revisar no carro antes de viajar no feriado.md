@@ -2,7 +2,7 @@
 title: Carnaval de BH - o que revisar no carro antes de viajar no feriado
 date: 2026-02-09
 excerpt: O Carnaval de BH cresce a cada ano e já é um dos maiores do Brasil. Enquanto muita gente aproveita os blocos de rua na capital, outra parte escolhe o feriado para viajar para cidades próximas de Belo Horizonte e descansar.
-image: /imgs/ugur-arpaci-U18V0ToioFU-unsplash.png
+image: /imgs/carnaval-bh-viagem.webp
 ---
 
 O Carnaval de BH cresce a cada ano e já é um dos maiores do Brasil. Enquanto muita gente aproveita os blocos de rua na capital, outra parte escolhe o feriado para viajar para cidades próximas de Belo Horizonte e descansar.

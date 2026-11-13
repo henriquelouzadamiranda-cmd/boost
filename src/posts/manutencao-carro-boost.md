@@ -2,10 +2,8 @@
 title: Pós-viagem - o que revisar no carro depois de pegar estrada
 date: 2026-04-09
 excerpt: Viajar de carro é uma das melhores formas de aproveitar o feriado, descansar e conhecer novos lugares.
-image: /imgs/manutencao-carro-boost.png
+image: /imgs/manutencao-carro-boost.webp
 ---
-
-# Pós-viagem: o que revisar no carro depois de pegar estrada
 
 Viajar de carro é uma das melhores formas de aproveitar o feriado, descansar e conhecer novos lugares. Mas, depois de muitas horas na estrada, subidas, frenagens, trânsito e variações de temperatura, o veículo precisa de atenção.
 

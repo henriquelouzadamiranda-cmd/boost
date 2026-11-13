@@ -4,6 +4,7 @@
 	import Benefits from '$lib/components/benefits.svelte';
 	import Products from '$lib/components/products.svelte';
 	import Contact from '$lib/components/contact.svelte';
+	import Location from '$lib/components/location.svelte';
 	import Seo from '$lib/components/seo.svelte';
 	import { organizationJsonLd, SITE_URL, SITE_NAME } from '$lib/seo';
 	import { IconBrandWhatsappFilled } from '@tabler/icons-svelte';
@@ -31,6 +32,7 @@
 <About />
 <Benefits />
 <Products />
+<Location />
 <Contact />
 
 <a

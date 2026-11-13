@@ -8,9 +8,9 @@
 	const navItems = [
 		{ label: 'Sobre', href: '/#sobre' },
 		{ label: 'Produtos', href: '/#produtos' },
-		// { label: "Onde encontrar", href: "/#localizacao" },
-		{ label: 'Contato', href: '/#contato' },
-		{ label: 'Blog', href: '/blog' }
+		{ label: 'Onde comprar', href: '/onde-comprar' },
+		{ label: 'Blog', href: '/blog' },
+		{ label: 'Contato', href: '/#contato' }
 	];
 
 	const handleNavigation = (e: MouseEvent, href: string) => {
@@ -53,6 +53,7 @@
 						{item.label}
 					</a>
 				{/each}
+				<Button href="/seja-revendedor" size="sm">Seja revendedor</Button>
 			</nav>
 
 			<!-- Mobile Menu Button -->
@@ -82,6 +83,11 @@
 						{item.label}
 					</a>
 				{/each}
+				<div class="px-4 pt-4">
+					<Button href="/seja-revendedor" class="w-full" onclick={() => (mobileMenuOpen = false)}
+						>Seja revendedor</Button
+					>
+				</div>
 			</nav>
 		{/if}
 	</div>

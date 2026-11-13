@@ -16,6 +16,8 @@ export async function GET() {
 			lastmod: today,
 			priority: '0.9'
 		})),
+		{ loc: `${SITE_URL}/seja-revendedor`, lastmod: today, priority: '0.9' },
+		{ loc: `${SITE_URL}/onde-comprar`, lastmod: today, priority: '0.8' },
 		{ loc: `${SITE_URL}/blog`, lastmod: today, priority: '0.7' },
 		...posts.map((post) => ({
 			loc: `${SITE_URL}/blog/${post.slug}`,

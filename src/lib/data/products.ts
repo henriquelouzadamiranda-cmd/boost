@@ -12,6 +12,10 @@ export type Product = {
 	specs: { label: string; value: string }[];
 	/** slug do post do blog relacionado (opcional) */
 	blogSlug?: string;
+	/** Link do anúncio no Mercado Livre. Vazio = usa o link da loja (empresa.ts) */
+	mercadoLivre?: string;
+	/** Link (ou caminho em /static) da ficha técnica / FISPQ em PDF, se houver */
+	fichaTecnica?: string;
 };
 
 const specsLata = [
@@ -37,7 +41,9 @@ export const products: Product[] = [
 			{ label: 'Dimensões da caixa', value: '50,5 × 26 × 43 cm' },
 			{ label: 'Peso bruto por caixa', value: '21,5 kg' }
 		],
-		blogSlug: 'rtv-silicone-automotivo-vedacao-profissional-para-evitar-vazamentos-e-retrabalho'
+		blogSlug: 'rtv-silicone-automotivo-vedacao-profissional-para-evitar-vazamentos-e-retrabalho',
+		mercadoLivre: '', // cole aqui o link do anúncio
+		fichaTecnica: '' // ex.: '/fichas/rtv-silicone.pdf'
 	},
 	{
 		slug: 'oleo-lubrificante-gn-80',
@@ -49,7 +55,9 @@ export const products: Product[] = [
 		image: '/imgs/boost_oleo-lubrificante-gn-80.webp',
 		desc: 'O Óleo Lubrificante GN-80 da Boost é um spray supermultiuso com ação profissional para lubrificação, proteção anticorrosiva e desengorduramento. Com sua fórmula de alta potência, ele remove óxidos e solta peças travadas, como parafusos e dobradiças. Disponível em embalagem spray 250 ml / 155 g, é um verdadeiro aliado para manutenção eficiente.',
 		specs: specsLata,
-		blogSlug: 'oleo-lubrificante-gn-80-solucao-multiuso-para-manutencao-automotiva'
+		blogSlug: 'oleo-lubrificante-gn-80-solucao-multiuso-para-manutencao-automotiva',
+		mercadoLivre: '', // cole aqui o link do anúncio
+		fichaTecnica: '' // ex.: '/fichas/rtv-silicone.pdf'
 	},
 	{
 		slug: 'limpa-contato',
@@ -61,7 +69,9 @@ export const products: Product[] = [
 		image: '/imgs/boost_limpa-contato.webp',
 		desc: 'O Limpa Contato Boost é um spray de ação instantânea, desenvolvido para restaurar a condutividade e garantir a limpeza de contatos elétricos e eletrônicos. Sua fórmula de secagem rápida remove sujeira, poeira, óleo e gordura, protegendo contra umidade e evitando falhas elétricas. Ideal para uso automotivo, motocicletas e eletrônicos, o produto também oferece proteção antiferrugem.',
 		specs: specsLata,
-		blogSlug: 'limpa-contato-automotivo-eficiencia-eletrica-e-protecao-contra-falhas'
+		blogSlug: 'limpa-contato-automotivo-eficiencia-eletrica-e-protecao-contra-falhas',
+		mercadoLivre: '', // cole aqui o link do anúncio
+		fichaTecnica: '' // ex.: '/fichas/rtv-silicone.pdf'
 	},
 	{
 		slug: 'descarbonizante',
@@ -73,7 +83,9 @@ export const products: Product[] = [
 		image: '/imgs/boost_descarbonizante.webp',
 		desc: 'O Descarbonizante Boost é um limpador de alta performance para o corpo do acelerador, válvula de admissão e bicos injetores. Sua fórmula foi desenvolvida para motores a álcool, gasolina, diesel e flex, removendo depósitos de carbono e garantindo um desempenho superior do motor. Além de proteger e lubrificar a válvula borboleta, é seguro para sensores de oxigênio e conversores catalíticos. Recomenda-se o uso a cada 3 meses ou 5.000 km para manter o sistema sempre limpo e eficiente.',
 		specs: specsLata,
-		blogSlug: 'descarbonizante-automotivo-limpeza-profunda-para-mais-desempenho-e-economia'
+		blogSlug: 'descarbonizante-automotivo-limpeza-profunda-para-mais-desempenho-e-economia',
+		mercadoLivre: '', // cole aqui o link do anúncio
+		fichaTecnica: '' // ex.: '/fichas/rtv-silicone.pdf'
 	}
 ];
 
